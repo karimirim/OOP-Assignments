@@ -95,4 +95,5 @@ menampilkan seluruh demo secara berurutan tanpa menu.
 
 ## Screenshot Output
 
-_(tempel screenshot hasil run program di sini)_
+![Menu awal](st.png)
+![Output akhir](inp.png)

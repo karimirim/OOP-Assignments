@@ -41,32 +41,33 @@ Program juga memberikan saldo awal sebesar `50000` kepada customer baru.
 
 Screenshot saat program meminta input nama depan dan nama belakang customer.
 
-> (nama.png)
+![Input Nama](nama.png)
 
 ### 2. Menu Utama
 
 Screenshot saat menu utama ditampilkan.
 
-(menu.png)
+![Menu Utama](menu.png)
 
 ### 3. Deposit
 
 Screenshot saat memilih menu **Deposit** dan memasukkan jumlah uang.
 
-(depo.png)
+![Deposit](depo.png)
 
 ### 4. Withdraw
 
 Screenshot saat memilih menu **Withdraw** dan memasukkan jumlah uang.
 
-(withdraw.png)
+![Withdraw](withdraw.png)
 
 ### 5. Check Balance dan Exit
 
 Screenshot saat memilih **Check Balance** dan saat memilih **Exit**.
 
-(check balance.png)
-(exit.png)
+![Check Balance](check%20balance.png)
+
+![Exit](exit.png)
 
 ## Cara Menjalankan
 

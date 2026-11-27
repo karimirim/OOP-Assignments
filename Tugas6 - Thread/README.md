@@ -29,7 +29,7 @@ Aplikasi ini dirancang untuk memenuhi seluruh kriteria tugas PBO:
 ## 📂 Struktur File Project
 
 ```text
-Tugas Thread/
+Tugas6 - Thread/
 ├── DatabaseConnection.java     # Pengelola koneksi JDBC ke MySQL
 ├── Mahasiswa.java              # Model data entity Mahasiswa
 ├── MahasiswaDAO.java           # Data Access Object (CRUD, PreparedStatement, Transaction)
@@ -37,7 +37,14 @@ Tugas Thread/
 ├── Main.java                   # Entry point aplikasi (Event Dispatch Thread)
 ├── database.sql                # Skrip DDL tabel database
 ├── mysql-connector-j-8.4.0.jar # Driver JDBC MySQL
-└── README.md                   # Dokumentasi aplikasi dan screenshot
+├── README.md                   # Dokumentasi aplikasi dan screenshot
+├── Load.png                    # Screenshot load data awal
+├── Menambah.png                # Screenshot status proses simpan (Saving...)
+├── Ditambah.png                # Screenshot konfirmasi data berhasil disimpan
+├── Mengubah.png                # Screenshot status proses ubah (Updating...)
+├── Diubah.png                  # Screenshot konfirmasi data berhasil diubah
+├── Menghapus.png               # Screenshot dialog konfirmasi hapus
+└── Dihapus.png                 # Screenshot konfirmasi data berhasil dihapus
 ```
 
 ---
@@ -74,7 +81,7 @@ INSERT INTO mahasiswa (nim, nama, jurusan) VALUES
 1. Buka Command Prompt (CMD) atau Terminal di folder project ini:
    ```cmd
    d:
-   cd "semester 5 gacor\PBO\Tugas Thread"
+   cd "semester 5 gacor\OOP-Assignments\Tugas6 - Thread"
    ```
 2. Compile seluruh file Java beserta driver MySQL:
    ```cmd
@@ -87,7 +94,7 @@ INSERT INTO mahasiswa (nim, nama, jurusan) VALUES
 
 ### Cara 2: Menggunakan Visual Studio Code (VS Code)
 
-1. Buka folder `Tugas Thread` di VS Code.
+1. Buka folder `Tugas6 - Thread` di VS Code.
 2. Buka panel explorer di sebelah kiri, scroll ke bawah ke bagian **JAVA PROJECTS**.
 3. Pada bagian **Referenced Libraries**, klik ikon tanda tambah (**`+`**).
 4. Pilih file `mysql-connector-j-8.4.0.jar` yang ada di folder project.
@@ -98,20 +105,25 @@ INSERT INTO mahasiswa (nim, nama, jurusan) VALUES
 ## 🖼️ Tangkapan Layar (Screenshots)
 
 ### 1. Tampilan Awal & Memuat Data (Read via Thread)
-<!-- Simpan screenshot tampilan awal saat program baru dibuka dengan nama screenshot_1_load.png -->
-![Tampilan Awal dan Read Data](screenshot_1_load.png)
+![Tampilan Awal dan Read Data](Load.png)
 
 ### 2. Menyimpan Data (Disable Button & Status "Saving...")
-<!-- Simpan screenshot saat tombol Simpan ditekan (tombol disable & status Saving...) dengan nama screenshot_2_saving.png -->
-![Proses Simpan Data](screenshot_2_saving.png)
+![Proses Simpan Data - Saving](Menambah.png)
 
-### 3. Mengubah Data (Update via Transaction)
-<!-- Simpan screenshot proses ubah data dengan nama screenshot_3_update.png -->
-![Proses Ubah Data](screenshot_3_update.png)
+### 3. Data Berhasil Disimpan
+![Data Berhasil Disimpan](Ditambah.png)
 
-### 4. Menghapus Data (Delete via Transaction)
-<!-- Simpan screenshot dialog konfirmasi dan proses hapus data dengan nama screenshot_4_delete.png -->
-![Proses Hapus Data](screenshot_4_delete.png)
+### 4. Mengubah Data (Update via Transaction)
+![Proses Ubah Data - Updating](Mengubah.png)
+
+### 5. Data Berhasil Diubah
+![Data Berhasil Diubah](Diubah.png)
+
+### 6. Menghapus Data (Konfirmasi Hapus)
+![Konfirmasi Hapus Data](Menghapus.png)
+
+### 7. Data Berhasil Dihapus
+![Data Berhasil Dihapus](Dihapus.png)
 
 ---
 
